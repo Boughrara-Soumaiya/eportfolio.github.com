@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/61523b4b4d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--Header-->
+<header>
+    <nav>
+        <h1 class="logo">Boughrara Soumaiya</h1>
+        <div class="onglets" id="menu">
+            <a href="#Apropos">À propos</a>
+            <a href="#Compétence">Compétence</a>
+            <a href="#P">Mes projets</a>
+            <a href="#Contact">Contact</a>
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </nav>  
+</header>
+
+    <!--Section-->
+    <section class="section">
+        <img src="image/bg.jpg" loading="lazy" class="background" alt="Background Image">
+        <div class="content">
+            <h2 class="text">Portfolio</h2>
+            <p class="subtitle">Découvrez mes projets et réalisations.</p>
+            <a href="#P" class="btn">Voir mes projets</a>
+        </div>
+        <div class="fade-out"></div> 
+    </section>
+    
+
+<!-- À propos -->
+<section class="Apropos" id="Apropos">
+    <div class="A_img">
+        <img src="image/me.png" loading="lazy" alt="photo Soumaiya Boughrara">
+    </div>
+    <div class="A_box">
+        <h2 class="titre">À propos</h2>
+        <p id="typed-text"></p>
+        <a href="Curriculum Vitae Boughrara Soumaiya.pdf" class="btn" download>📄 Télécharger mon CV</a>
+    </div>
+</section>
+
+<!--Compétence-->
+<section class="competence" id="Compétence">
+    <h2>Compétences</h2>
+</section> 
+<section class="liste_comp">
+    <div class="box_comp">
+        <i class="fa-solid fa-code"></i>
+        <h3>Développement web</h3>
+        <p>HTML<br>CSS<br>JavaScript</p>
+    </div>
+    <div class="box_comp">
+        <i class="fa-solid fa-terminal"></i>
+        <h3>Langages de programmation</h3>
+        <p>Java<br>C<br>OCAML<br>Python</p>
+    </div>
+     <div class="box_comp">
+        <i class="fa-solid fa-database"></i>
+        <h3>Bases de données</h3>
+        <p>SQL</p>
+    </div>
+    <div class="box_comp">
+        <i class="fa-solid fa-palette"></i>
+        <h3>Outils de création</h3>
+        <p>Processing</p>
+    </div>
+</section>
+
+<!-- Projet-->
+<section class="P" id="P">
+  <h2>Mes projets</h2>   
+  <div class="container">
+      <div class="category">
+          <h2>Projets Informatiques</h2>
+          <div class="projects">
+              <div class="project" onclick="openPopup('Arcanoïde', 'image/projet1.png', 'Objectif : Concevoir un jeu vidéo inspiré du célèbre jeu Asteroids, sorti en 1979. Le joueur contrôle un vaisseau spatial vu de dessus, confronté à des astéroïdes. L\'objectif principal est de survivre le plus longtemps possible en détruisant les obstacles pour accumuler des points. Le jeu utilise un effet de wraparound, permettant aux éléments quittant le cadre de l\'écran de réapparaître du côté opposé.')">
+                  <img src="image/projet1.png" loading="lazy" alt="Projet 1">
+                  <div class="project-title">Arcanoïde</div>
+              </div>
+              <div class="project" onclick="openPopup('Modélisation d\'une application mobile', 'image/projet2.png', 'Objectif : Modéliser une application de livraison de nourriture AUCHAN EAT, en commençant par la création d une architecture fonctionnelle. Cela a impliqué la conception des différentes composantes du système comme la gestion des comptes utilisateurs, la vérification SMS/email, la gestion des commandes, etc., ainsi que la création des diagrammes nécessaires pour représenter le fonctionnement de l\'application (diagrammes de classes, de cas d utilisation, de séquences, etc.).')">
+                  <img src="image/projet2.png" loading="lazy" alt="Projet 2">
+                  <div class="project-title">Modélisation d'une application mobile</div>
+              </div>
+              <div class="project" onclick="openPopup('Interface Java d\'une pizzeria', 'image/Projet3.jpg', 'Ce projet consiste en la création d’une interface en Java pour une pizzeria, permettant aux clients de passer commande, de personnaliser leurs pizzas et de suivre leur commande en temps réel. L’objectif est de développer une interface utilisateur fluide et intuitive, tout en assurant une gestion efficace des commandes via un back-end structuré.')">
+                  <img src="image/Projet3.jpg" loading="lazy" alt="Projet 3">
+                  <div class="project-title">Interface Java d'une pizzeria</div>
+              </div>
+              <div class="project" onclick="openPopup('Calculatrice', 'image/projet4.gif', 'Ce projet consiste en la création d’une calculatrice en ligne, développée en HTML, CSS et JavaScript. L’objectif est de fournir une interface intuitive et réactive permettant d’effectuer des opérations mathématiques de base (addition, soustraction, multiplication, division) directement depuis un navigateur web.')">
+                  <img src="image/projet4.gif" loading="lazy" alt="Projet 4">
+                  <div class="project-title">Calculatrice</div>
+              </div>
+              <div class="project" onclick="openPopup('Gestion de plateformes universitaire', 'image/projet11.jpg', 'Ce projet vise à modéliser et structurer une base de données destinée à la gestion d’une plateforme universitaire. L’objectif est de concevoir un Modèle Conceptuel de Données (MCD) permettant d’optimiser la gestion des informations liées aux étudiants, enseignants, cours, inscriptions et examens. La méthode Entité-Relation (ER) a été utilisée pour garantir une organisation claire et efficace des données.')">
+                <img src="image/projet11.jpg" loading="lazy" alt="Projet 5">
+                <div class="project-title">Gestion de plateformes universitaire</div>
+            </div>
+          </div>
+      </div>
+
+      <div class="category">
+          <h2>Projets en Droit</h2>
+          <div class="projects">
+              <div class="project" onclick="openPopup('L\'innovation numérique dans un environnement juridique contraint', 'image/projet5.png', 'L\'innovation numérique transforme profondément la société et le droit, soulevant de nouveaux enjeux juridiques liés à la protection des données, à la liberté dexpression et à la régulation des technologies. L’identité numérique, composée des traces laissées en ligne, remet en question la notion de vie privée et de contrôle des informations personnelles. Parallèlement, la montée de l’e-démocratie facilite la participation citoyenne tout en posant des défis de régulation, notamment dans la diffusion des opinions et la modération des contenus. Face à ces évolutions, le droit doit s’adapter en trouvant un équilibre entre innovation, sécurité et respect des libertés fondamentales. L’intégration du numérique dans les principes constitutionnels et la mise en place de cadres législatifs clairs apparaissent ainsi comme des solutions essentielles pour encadrer cette révolution technologique.')">
+                  <img src="image/projet5.png" loading="lazy" alt="Projet 6">
+                  <div class="project-title">L'innovation numérique dans un environnement juridique contraint</div>
+              </div>
+              <div class="project" onclick="openPopup('Les réglementations liées à la publicité et la vente d\'alcool en ligne', 'image/projet6.png', 'En France et en Europe, la vente d alcool et sa publicité en ligne sont strictement encadrées par la loi afin de limiter les risques liés à la consommation d alcool, notamment chez les mineurs. En France, la loi Évin (1991) impose des restrictions strictes sur la publicité pour l\'alcool, interdisant notamment toute incitation excessive à la consommation et limitant les supports autorisés (pas de publicité à la télévision ou destinée aux jeunes). La vente en ligne d’alcool est soumise à une vérification de l\'âge de l\'acheteur et à des mentions obligatoires sur les risques liés à l\'alcool. Au niveau européen, la réglementation varie selon les États membres, mais le cadre général est influencé par des directives visant à protéger la santé publique et à assurer un commerce équitable. Certaines plateformes doivent ainsi adapter leurs pratiques pour respecter les règles locales tout en opérant sur un marché commun')">
+                <img src="image/projet6.png" loading="lazy" alt="Projet 7">
+                <div class="project-title">Les réglementations liées à la publicité et la vente d'alcool en ligne</div>
+            </div>
+            <div class="project" onclick="openPopup('Le Digital Markets Act et le Digital Services Act', 'image/projet7.jpg', 'Le Digital Markets Act (DMA) et le Digital Services Act (DSA) sont deux réglementations européennes adoptées pour encadrer les grandes plateformes numériques et garantir un environnement en ligne plus équitable et sécurisé. Le DMA, en vigueur depuis 2023, vise à limiter les abus de position dominante des grandes plateformes qualifiées de gatekeepers (Google, Apple, Meta, etc.). Il impose des règles strictes pour favoriser la concurrence, comme l’interdiction d’auto-préférence des services ou l’obligation de permettre l’interopérabilité avec d’autres plateformes. Le DSA, applicable à partir de 2024, concerne la responsabilité des plateformes en matière de contenus. Il impose des obligations accrues aux grandes entreprises pour lutter contre la désinformation, les contenus illicites et la protection des utilisateurs (publicité ciblée, transparence des algorithmes, modération des contenus). Ces deux textes renforcent la régulation du numérique en Europe et visent à créer un espace en ligne plus équitable et sécurisé pour les consommateurs et les entreprises.')">
+                <img src="image/projet7.jpg" loading="lazy" alt="Projet 8">
+                <div class="project-title">Le Digital Markets Act et le Digital Services Act</div>
+            </div>
+            <div class="project" onclick="openPopup('Prototype de dématérialisation de verbalisation de contrats', 'image/projet8.jpg', 'Le prototype de dématérialisation de verbalisation de contrats est une solution numérique conçue pour aider les utilisateurs à mieux comprendre les termes, les implications et les obligations découlant d’un contrat. Grâce à des technologies comme l’intelligence artificielle, l’analyse de texte et des interfaces interactives, ce prototype permet de simplifier le langage juridique, d’expliquer les clauses complexes et d’illustrer les engagements de chaque partie. L\'objectif est de rendre les contrats plus accessibles et transparents pour les utilisateurs, en leur offrant des explications détaillées sous forme de résumés, de mises en situation ou de guides interactifs. Cela peut être particulièrement utile dans des domaines tels que l\'immobilier, l\’assurance ou les services financiers, où les contrats sont souvent techniques et difficiles à interpréter.')">
+                <img src="image/projet8.jpg"  loading="lazy" alt="Projet 9">
+                <div class="project-title">Prototype de dématérialisation de verbalisation de contrats</div>
+            </div>
+            <div class="project" onclick="openPopup('La CNIL', 'image/projet10.jpg', 'Dans ce dossier, j’ai analysé le rôle et le fonctionnement de la Commission Nationale de l’Informatique et des Libertés (CNIL) dans la protection des données personnelles et le respect des libertés individuelles. En m’appuyant sur des textes juridiques et des cas concrets, j’ai étudié les enjeux liés à la régulation du numérique et les conflits opposant la CNIL aux grandes entreprises technologiques (GAFAM).')">
+                <img src="image/projet10.jpg" loading="lazy" alt="Projet 10">
+                <div class="project-title">La CNIL</div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Fenêtre modale -->
+<div id="popup" class="popup">
+<div class="popup-content">
+    <span class="close" onclick="closePopup()">&times;</span>
+    <h2 id="popup-title"></h2>
+    <img id="popup-image" src="" alt="">
+    <p id="popup-text"></p>
+</div>
+</div> 
+  
+
+<!--Contact-->
+<section class="Contact" id="Contact">
+    <div class="C_lien">
+        <img src="image/QR CODE.png" loading="lazy" alt="QR code">
+    </div>
+    <div class="C_box">
+        <h2 class="C_titre">Contact</h2>
+        <p>Si mon profil vous a plu, je serais ravie de pouvoir en parler de vive voix avec vous, n'hésitez pas à me contacter !</p>
+        <h3>Email</h3>
+        <p>boughrara.soumaiya@gmail.com ⎜<a href="mailto:boughrara.soumaiya@gmail.com">Cliquez ici pour envoyer un Email</a> </p>
+    </div>
+</section> 
+<!--Footer-->
+       <footer>
+            <p>Created By Soumaiya ⎜ &copy; 2024 All rights reserved.</p>
+        </footer> 
+
+        <!-- Section projets ici -->
+        <script src="main.js"></script>
+</body>
+</html>
