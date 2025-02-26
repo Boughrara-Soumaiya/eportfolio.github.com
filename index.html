@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/61523b4b4d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--Header-->
+<header>
+    <nav>
+        <h1 class="logo">Boughrara Soumaiya</h1>
+        <div class="onglets" id="menu">
+            <a href="#Apropos">À propos</a>
+            <a href="#Compétence">Compétence</a>
+            <a href="#P">Mes projets</a>
+            <a href="#Contact">Contact</a>
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </nav>  
+</header>
+
+    <!--Section-->
+    <section class="section">
+        <img src="image/bg.jpg" loading="lazy" class="background" alt="Background Image">
+        <div class="content">
+            <h2 class="text">Portfolio</h2>
+            <p class="subtitle">Découvrez mes projets et réalisations.</p>
+            <a href="#P" class="btn">Voir mes projets</a>
+        </div>
+        <div class="fade-out"></div> 
+    </section>
+    
+
+<!-- À propos -->
+<section class="Apropos" id="Apropos">
+    <div class="A_img">
+        <img src="image/me.png" loading="lazy" alt="photo Soumaiya Boughrara">
+    </div>
+    <div class="A_box">
+        <h2 class="titre">À propos</h2>
+        <p id="typed-text"></p>
+        <a href="Curriculum Vitae Boughrara Soumaiya.pdf" class="btn" download>📄 Télécharger mon CV</a>
+    </div>
+</section>
+
+<!--===== Compétence =====-->
+<section class="competence" id="Compétence">
+    <h2>Compétences</h2>
+</section> 
+<section class="liste_comp">
+    <div class="box_comp">
+        <i class="fa-solid fa-code"></i>
+        <h3>Développement web</h3>
+        <p>HTML<br>CSS<br>JavaScript</p>
+    </div>
+    <div class="box_comp">
+        <i class="fa-solid fa-terminal"></i>
+        <h3>Langages de programmation</h3>
+        <p>Java<br>C<br>OCAML<br>Python</p>
+    </div>
+     <div class="box_comp">
+        <i class="fa-solid fa-database"></i>
+        <h3>Bases de données</h3>
+        <p>SQL</p>
+    </div>
+</section>
+
+<!--===== Projet =====-->
+<section class="P" id="P">
+    <h2>Mes projets</h2>   
+            <div id="popup-article1" class="popup">
+                <div class="popup__container">
+                    <a href="#portfolio" class="popup__close">
+                         <span class="screen-reader">close</span> </a>  
+            <div class="popup__content">
+                <h1 class="popup__title r-title"><span class="blue">Arcanoïde</span> - Jeu d'arcade</h1>
+                <p><b>Objectif du projet :</b></p>
+                <p>Le projet Arcanoïde est un jeu vidéo développé en Processing, inspiré du célèbre jeu Asteroids (1979). Le joueur incarne un vaisseau spatial vu de dessus, évoluant dans un environnement rempli d’astéroïdes en mouvement. L’objectif est de survivre le plus longtemps possible en détruisant les astéroïdes tout en accumulant des points..</p><br>
+                <p>l'impact du projet :</p>
+                <p>1 - Développer des compétences en programmation interactives.</p>
+                <p>2 - Appliquer des principes fondamentaux du développement de jeux vidéo. </p>
+                <p>3 - Concevoir des mécanique de jeu et optimiser des algorithmes graphiques.</p>
+                <br>
+                <p><b>Technologies :</b></p>  
+                <br>
+                <p class="blue">Processing</p>
+                <br>
+                <h1 class="popup__title r-title">PROJET EN IMAGES</h1>
+                <div class="popup__img">
+                    <div class="popup__img1"><video src="image/projet1v.mp4" controls autoplay muted loop></video></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup-article2" class="popup">
+        <div class="popup__container">
+            <a href="#portfolio" class="popup__close">
+                <span class="screen-reader">close</span>
+            </a>  
+            <div class="popup__content">
+                <h1 class="popup__title r-title"><span class="blue">Application de livraison de nourriture</span> - Modélisation objet</h1>
+                <p><b>Objectif du projet :</b></p>
+                <p>Ce projet consiste en la modélisation d’un prototype d’application de livraison de repas baptisé Auchan Eat, pensé comme une extension des services d’Auchan. L’objectif est d’intégrer un service de commande et de livraison de repas directement relié à la plateforme Auchan, afin d’optimiser l’expérience des clients et des restaurateurs partenaires.</p>
+                <p>L’étude a porté sur la compréhension des besoins utilisateurs, la conception d’une architecture robuste et la modélisation des principales fonctionnalités à travers divers diagrammes UML.</p>
+                <p>Le document détaille la genèse du projet, les besoins spécifiques des parties prenantes (clients, restaurateurs, livreurs et Auchan) et les enjeux stratégiques liés à cette diversification de service.</p>
+                <br>
+                <p><b>Technologies :</b></p>
+                <p>Figma - modélisation UML - conception d'architecture</p>                     
+                <br>
+                
+                <p class="blue">Figma - draw.io - starUML</p>
+                <br>
+                <h1 class="popup__title r-title">PROJET EN IMAGES</h1>
+                <div class="popup__img">
+                    <div class="popup__img1"><img src="image/projet2_1.png"></div> 
+                    <div class="popup__img1"><img src="image/projet2_2.png"></div>
+                    <div class="popup__img1"><img src="image/projet2_3.png"></div>
+                </div>
+                <div class="popup__img">
+                    <div class="popup__img1"><img src="image/projet2_4.png"></div> 
+                    <div class="popup__img1"><img src="image/projet2_5.png"></div>
+                    <div class="popup__img1"><img src="image/projet2_6.png"></div>
+                </div>
+                <br>
+                <p>Voir le <a href="https://www.figma.com/proto/8eVWoEg7IJnoYphYIRsCLv/AUCHAN-EAT?node-id=123-887&starting-point-node-id=123%3A887" target="_blank"><span class="blue">Figma</span></a></p>
+            </div>
+        </div>
+    </div>
+            </div>
+            </div>
+
+            
+
+    <div id="popup-article3" class="popup">
+        <div class="popup__container">
+            <a href="#portfolio" class="popup__close">
+                <span class="screen-reader">close</span>
+            </a>  
+            <div class="popup__content">
+                <h1 class="popup__title r-title"><span class="blue">Gestion de plateforme universitaire</span> - Conception base de données</h1>
+                <p><b>Objectif du projet :</b></p>
+                <p>Ce projet vise à modéliser et structurer une base de données destinée à la gestion d’une plateforme universitaire. L’objectif est de concevoir un Modèle Conceptuel de Données (MCD) permettant d’optimiser la gestion des informations liées aux étudiants, enseignants, cours, inscriptions et examens. La méthode Entité-Relation (ER) a été utilisée pour garantir une organisation claire et efficace des données.</p>
+                <p>Le document détaille l’analyse des besoins, la modélisation conceptuelle et les relations entre les entités clés de la plateforme universitaire.</p><br>
+                <p><b>Technologies :</b></p>           
+                <br>
+                <p class="blue">MCD - SQL </p>
+                <br>
+                <h1 class="popup__title r-title">PROJET EN IMAGES</h1>
+                <div class="popup__img">
+                    <div class="popup__img1"><img src="image/projet3_1.png"></div> 
+                    <div class="popup__img1"><img src="image/projet3_2.png"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+            </div>
+
+    <div id="popup-article4" class="popup">
+        <div class="popup__container">
+          <a href="#portfolio" class="popup__close">
+            <span class="screen-reader">close</span>
+          </a>  
+            <div class="popup__content">
+                <h1 class="popup__title r-title"><span class="blue">Interface d'une pizzeria</span> - Java</h1>
+                <p><b>Objectif du projet :</b></p>
+                <p> Ce projet consiste en la création d’une interface en Java pour une pizzeria, permettant aux clients de passer commande, de personnaliser leurs pizzas et de suivre leur commande en temps réel.</p>
+                <p>L’objectif est de développer une interface utilisateur fluide et intuitive, tout en assurant une gestion efficace des commandes via un back-end structuré.</p>
+                <br>
+                <p><b>Technologies :</b></p>
+                                
+                <br>
+                
+                <p class="blue">Java</p>
+                <br>
+            </div>
+        </div>
+    </div>
+    <div id="popup-article5" class="popup">
+        <div class="popup__container">
+          <a href="#portfolio" class="popup__close">
+            <span class="screen-reader">close</span>
+          </a>  
+            <div class="popup__content">
+                <h1 class="popup__title r-title"><span class="blue">Innovation du numérique dans un environnement juridique contraint</span> - Projet papier </h1>
+                <p><b>Objectif du projet :</b></p>
+                <p>Le projet explore l’impact du numérique sur l’environnement juridique, en colaboration avec le ministère de la justice.</p>
+                    <p>Comment l’innovation technologique transforme le droit et les défis qu’elle impose en matière de régulation, de protection des données et d’e-démocratie.</p>
+                    <p>Le projet met en lumière la nécessité d’un équilibre entre innovation technologique et cadre juridique pour garantir la protection des libertés individuelles tout en assurant la sécurité et la souveraineté numérique.</p>
+                <br>
+                    <p>L’étude s’est articulée autour de trois axes principaux :</p>
+                <br>
+                <p>1 - L'impact du numerique sur le droit et la société : notamment à travers la notion d’identité numérique et l’émergence de nouveaux droits pour les citoyens.</p>
+                <p>2 - L’influence des contraintes juridiques sur l’innovation numérique : en examinant les tensions entre cybersurveillance, libertés individuelles et régulation des données.</p>
+                <p>3 - Le futur du numérique et sa fusion avec le droit : avec une réflexion sur la constitutionnalisation du numérique et la régulation des plateformes numériques.</p>
+                <br>
+                <p>Voir le <a href="document/Innovation du numérique dans un envirronement juridique contraint.pdf" target="_blank"><span class="blue">Document</span></a></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup-article6" class="popup">
+        <div class="popup__container">
+          <a href="#portfolio" class="popup__close">
+            <span class="screen-reader">close</span>
+          </a>  
+            <div class="popup__content">
+                <h1 class="popup__title r-title"><span class="blue">La Réglementation liées à la publicité et de la vente d'alcool en ligne</span> -  Projet papier</h1>
+                <p><b>Objectif du projet :</b></p><br>
+                <p>Le projet explore l’environnement juridique de la publicité et de la vente d’alcool en ligne sous l’angle du droit matériel du numérique.</p>
+                <br>
+                <p> En m’appuyant sur des textes législatifs et des décisions de justice, j’ai étudié les obligations des commerçants ainsi que les limites imposées aux publicitaires dans la promotion des boissons alcoolisées sur Internet.</p>
+                <br>
+                <p>Voir le <a href="document/Publicité et vente d'alcool en ligne.pdf" target="_blank"><span class="blue">Document</span></a></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup-article7" class="popup">
+        <div class="popup__container">
+          <a href="#portfolio" class="popup__close">
+            <span class="screen-reader">close</span>
+          </a>  
+            <div class="popup__content">
+                <h1 class="popup__title r-title"><span class="blue">Le Digital Market Act (DMA) et le Digital Services Act (DSA)</span> -  Projet papier</h1>
+                <p><b>Objectif du projet :</b></p><br>
+                <p>Dans ce projet, j’ai analysé l’impact du Digital Services Act (DSA) et du Digital Markets Act (DMA) sur la régulation des plateformes numériques en Europe.</p>
+                <br>
+                <p>L’étude met en lumière l’ambition de ces régulations de créer un espace numérique plus sûr et plus équitable, tout en soulevant des défis d’application et d’adaptation pour les entreprises concernées.</p>
+                <br>
+                <p>Voir le <a href="document/dsa et dma.pdf" target="_blank"><span class="blue">Document</span></a></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup-article8" class="popup">
+        <div class="popup__container">
+          <a href="#portfolio" class="popup__close">
+            <span class="screen-reader">close</span>
+          </a>  
+            <div class="popup__content">
+                <h1 class="popup__title r-title"><span class="blue">Prototype de dématérialisation de verbalisation de contrats</span> -  Projet papier</h1>
+                <p><b>Objectif du projet :</b></p><br>
+                <p>Dans ce projet, nous avons soumis l’idée d’une plateforme de dématérialisation visant à simplifier la compréhension des contrats et à renforcer la protection des consommateurs face aux clauses abusives. L’objectif est de proposer une solution numérique permettant d’analyser automatiquement les contrats, d’expliquer les termes juridiques complexes et d’accompagner les particuliers en cas de litige.</p>
+                <br>
+                <p>Le document explore les enjeux liés aux contrats que signent les particuliers, souvent truffés de clauses difficilement compréhensibles ou désavantageuses.</p>
+                <br>
+                <p>Il expose l’idée d’un projet innovant visant à faciliter l’accès à l’information juridique et à offrir des solutions automatisées pour détecter les clauses abusives.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup-article9" class="popup">
+        <div class="popup__container">
+          <a href="#portfolio" class="popup__close">
+            <span class="screen-reader">close</span>
+          </a>  
+            <div class="popup__content">
+                <h1 class="popup__title r-title"><span class="blue">Présentation de la CNIL</span> -  Projet papier</h1>
+                <p><b>Objectif du projet :</b></p><br>
+                <p>Dans ce dossier, j’ai analysé le rôle et le fonctionnement de la Commission Nationale de l’Informatique et des Libertés (CNIL) dans la protection des données personnelles et le respect des libertés individuelles.</p>
+                <br>
+                <p>En m’appuyant sur des textes juridiques et des cas concrets, j’ai étudié les enjeux liés à la régulation du numérique et les conflits opposant la CNIL aux grandes entreprises technologiques (GAFAM).</p>
+                <br>
+                <p>L’étude met en lumière l’importance de la CNIL dans la régulation du numérique, les défis qu’elle rencontre face aux multinationales et les enjeux liés à la protection des données personnelles à l’ère du numérique.</p>
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="popup-article10" class="popup">
+        <div class="popup__container">
+          <a href="#portfolio" class="popup__close">
+            <span class="screen-reader">close</span>
+          </a>  
+            <div class="popup__content">
+                <h1 class="popup__title r-title"><span class="blue">Conférence : Ruptures technologique, Ruptures de société</span> -  Projet personnel</h1>
+                <p><b>Objectif du projet :</b></p><br>
+                <p>La conférence explore les liens entre avancées technologiques et bouleversements sociétaux à travers l’histoire.</p> 
+                <p>Elle aborde les grandes révolutions technologiques, depuis l’invention des outils et de l’écriture jusqu’à l’ère numérique et l’intelligence artificielle.</p>
+                <p>L’exposé met en avant des périodes clés comme l’Antiquité, où des savants comme Euclide et Archimède ont posé les bases de la science moderne, ainsi que l’apport du monde islamique et de la Chine médiévale dans la transmission du savoir.</p>
+                <p>L’ère industrielle et la révolution numérique sont également analysées sous l’angle de l’innovation et de leurs impacts sur l’emploi, l’économie et la société.</p>
+                <br>
+                <p>Voir le <a href="document/Compte rendu de conférence.pdf" target="_blank"><span class="blue">Document</span></a></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup-article11" class="popup">
+        <div class="popup__container">
+          <a href="#portfolio" class="popup__close">
+            <span class="screen-reader">close</span>
+          </a>  
+            <div class="popup__content">
+                <h1 class="popup__title r-title"><span class="blue">Conflit Maroc Algérie : rupture des relations diplomatiques et fermeture de l'espace aérien</span> -  Projet personnel</h1>
+                <p><b>Objectif du projet :</b></p><br>
+                <p>Dans ce dossier de presse, j’ai analysé les tensions diplomatiques entre le Maroc et l’Algérie sous l’angle du droit international.</p> 
+                <p>En m’appuyant sur des textes juridiques et des sources journalistiques, j’ai étudié les conséquences de la rupture diplomatique et les implications du droit international public.</p>
+                <p>Le document explore les origines historiques et politiques des tensions entre le Maroc et l’Algérie, mettant en avant les conflits territoriaux, les différends diplomatiques et les intérêts stratégiques des deux nations.</p>
+                <p>Ce dossier met en lumière les enjeux géopolitiques complexes et questionne l’impact de ces décisions sur la stabilité du Maghreb et des relations internationales.</p>
+                <br>
+                <p>Voir le <a href="document/dossier de presse.pdf" target="_blank"><span class="blue">Document</span></a></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup-article12" class="popup">
+        <div class="popup__container">
+          <a href="#portfolio" class="popup__close">
+            <span class="screen-reader">close</span>
+          </a>  
+            <div class="popup__content">
+                <h1 class="popup__title r-title"><span class="blue">La place des femmes dans l'informatique</span> -  Projet personnel</h1>
+                <p><b>Objectif du projet :</b></p><br>
+                <p>Ce projet met en lumière l’histoire souvent méconnue des femmes qui ont marqué l’informatique.</p> 
+                <p>De Ada Lovelace, considérée comme la première codeuse de l’histoire, à Grace Hopper, pionnière du langage COBOL, en passant par Hedy Lamarr, inventrice du concept à l’origine du Wi-Fi et du Bluetooth, cette étude retrace leurs contributions essentielles.</p>
+                <br>
+                <p>L’objectif est de réhabiliter leur rôle dans le développement des technologies informatiques et de questionner la place actuelle des femmes dans ce domaine.</p>
+            </div>
+        </div>
+    </div>
+    <div id="popup-article13" class="popup">
+        <div class="popup__container">
+          <a href="#portfolio" class="popup__close">
+            <span class="screen-reader">close</span>
+          </a>  
+            <div class="popup__content">
+                <h1 class="popup__title r-title"><span class="blue">Comment le gaz russe a gagné l'Ouest</span> -  Projet personnel</h1>
+                <p><b>Objectif du projet :</b></p><br>
+                <p>Le documentaire Comment le gaz russe a gagné l’Ouest retrace l’histoire de la construction des premiers gazoducs reliant l’Union soviétique à l’Europe de l’Ouest dans les années 1970-1980.</p> 
+                <p> Il met en lumière les défis techniques et humains liés à ce projet titanesque, réalisé dans des conditions extrêmes, mobilisant une main-d’œuvre jeune et parfois contrainte. </p>
+                <p>Au-delà de l’exploit industriel, le documentaire souligne les enjeux géopolitiques de cette coopération énergétique, qui a permis à l’URSS d’étendre son influence en Europe occidentale, tout en révélant la dépendance croissante de l’Ouest aux ressources russes.</p>
+                <br>
+                <p>Cette analyse met en perspective l’évolution des relations internationales à travers le prisme de l’énergie et de l’économie.</p>
+                <br>
+                <p>Voir le <a href="document/Comment le gaz russe a gagné l'Ouest.pdf" target="_blank"><span class="blue">Document</span></a></p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="category">
+            <h2>Projets Informatiques</h2>
+            <div class="projects">
+    <div class="portfolio__container">
+        <div class="portfolio__img">
+            <img src="image/projet1.png" alt="">
+
+            <div class="portfolio__link">
+                
+                <a href="#popup-article1" class="portfolio__link-name"><span class="blue">Jeu d'arcade</span> <br>Détails</a>
+            </div>
+        </div>
+        <div class="portfolio__img">
+            <img src="image/projet2.png" alt="">
+
+            <div class="portfolio__link">
+                <a href="#popup-article2" class="portfolio__link-name"><span class="blue">Application mobile</span> <br>Détails</a>
+            </div>
+        </div>
+        <div class="portfolio__img">
+            <img src="image/Projet3.jpg" alt="">
+
+            <div class="portfolio__link">
+                <a href="#popup-article3" class="portfolio__link-name"><span class="blue">Conception base de donnée</span> <br>Détails</a>
+            </div>
+        </div>
+        <div class="portfolio__img">
+            <img src="image/Projet4.jpg" alt="">
+
+            <div class="portfolio__link">
+                <a href="#popup-article4" class="portfolio__link-name"><span class="blue">Interface Java</span> <br>Détails</a>
+            </div>
+        </div>
+    </div>
+    <div class="category">
+        <h2>Projets en Droit</h2>
+        <div class="projects">
+        <div class="portfolio__img">
+            <img src="image/projet5.png" alt="">
+
+            <div class="portfolio__link">
+                <a href="#popup-article5" class="portfolio__link-name"><span class="blue">numerique et droit</span> <br>Détails</a>
+            </div>
+        </div>
+        <div class="portfolio__img">
+            <img src="image/projet6.png" alt="">
+
+            <div class="portfolio__link">
+                <a href="#popup-article6" class="portfolio__link-name"><span class="blue"></span> <br>Détails</a>
+            </div>
+        </div>
+        <div class="portfolio__img">
+            <img src="image/projet7.jpg" alt="">
+
+            <div class="portfolio__link">
+                <a href="#popup-article7" class="portfolio__link-name"><span class="blue">DSA et DMA</span> <br>Détails</a>
+            </div>
+        </div>
+        <div class="portfolio__img">
+            <img src="image/projet8.jpg" alt="">
+
+            <div class="portfolio__link">
+                <a href="#popup-article8" class="portfolio__link-name"><span class="blue">Prototype de dématérialisation</span> <br>Détails</a>
+            </div>
+        </div>
+        <div class="portfolio__img">
+            <img src="image/projet9.jpg" alt="">
+
+            <div class="portfolio__link">
+                <a href="#popup-article9" class="portfolio__link-name"><span class="blue">CNIL</span> <br>Détails</a>
+            </div>
+        </div>
+        <div class="category">
+            <h2>Projets personnelles</h2>
+            <div class="projects">
+        <div class="portfolio__img">
+            <img src="image/Projet10.jpg" alt="">
+
+            <div class="portfolio__link">
+                <a href="#popup-article10" class="portfolio__link-name"><span class="blue">Compte rendu de conference</span> <br>Détails</a>
+            </div>
+        </div>
+        <div class="portfolio__img">
+            <img src="image/projet11.jpg" alt="">
+
+            <div class="portfolio__link">
+                <a href="#popup-article11" class="portfolio__link-name"><span class="blue">Dossier de presse</span> <br>Détails</a>
+            </div>
+        </div>
+        <div class="portfolio__img">
+            <img src="image/Projet12.jpg" alt="">
+
+            <div class="portfolio__link">
+                <a href="#popup-article12" class="portfolio__link-name"><span class="blue">Femme et informatique</span> <br>Détails</a>
+            </div>
+        </div>
+        <div class="portfolio__img">
+            <img src="image/projet13.jpeg" alt="">
+
+            <div class="portfolio__link">
+                <a href="#popup-article13" class="portfolio__link-name"><span class="blue">Comment le gaz russe a gagné l'Ouest ?</span> <br>Détails</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--Contact-->
+<section class="Contact" id="Contact">
+    <div class="C_lien">
+        <img src="image/QR CODE.png" loading="lazy" alt="QR code">
+    </div>
+    <div class="C_box">
+        <h2 class="C_titre">Contact</h2>
+        <p>Si mon profil vous a plu, je serais ravie de pouvoir en parler de vive voix avec vous, n'hésitez pas à me contacter !</p>
+        <h3>Email</h3>
+        <p>boughrara.soumaiya@gmail.com ⎜<a href="mailto:boughrara.soumaiya@gmail.com">Cliquez ici pour envoyer un Email</a> </p>
+    </div>
+</section> 
+<!--Footer-->
+       <footer>
+            <p>Created By Soumaiya ⎜ &copy; 2024 All rights reserved.</p>
+        </footer> 
+
+        <!-- Section projets ici -->
+        <script src="main.js"></script>
+</body>
+</html>
