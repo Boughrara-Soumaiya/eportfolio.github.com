@@ -50,7 +50,7 @@ nav {
     font-size: 20px;
     font-weight: bold;
     position: fixed;
-    left: 5rem;
+    left: 1rem;
 }
 
 /* Style des liens */
@@ -114,7 +114,7 @@ nav {
         font-size: 1.5rem;
         cursor: pointer;
         position: fixed;
-        right: 5rem;
+        right: 1rem;
     }
 
     /* Lorsque le menu est actif */
@@ -393,7 +393,7 @@ nav .onglets a {
 }
 
 .competence h2 {
-    font-size: 50px;
+    font-size: 28px;
     color: #8c9fa3;
     text-transform: uppercase;
     font-weight: bold;
@@ -437,7 +437,7 @@ nav .onglets a {
 }
 
 .liste_comp .box_comp i {
-    font-size: 50px;
+    font-size: 18px;
     color: #ffffff;
     background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
@@ -491,7 +491,7 @@ nav .onglets a {
 }
 
 .P h2 {
-    font-size: 50px;
+    font-size: 28px;
     color: #8c9fa3;
     text-transform: uppercase;
     font-weight: bold;
@@ -522,7 +522,7 @@ flex-wrap: wrap;
 }
 
 .category h2 {
-    font-size: 1.5rem;
+    font-size: 20px;
     color: #fff;
     margin-bottom: 20px;
     text-align: center;
@@ -566,7 +566,7 @@ flex-wrap: wrap;
         align-items: center;
         border-radius: .5rem;
         cursor: pointer;
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(20px);
         transition: .3s;
         text-align: center;
     }
@@ -654,6 +654,7 @@ flex-wrap: wrap;
   }
   
   .popup__container{
+   
     box-sizing: border-box;  
     padding: 5% 15%;
     background-color: #fff;
@@ -667,7 +668,7 @@ flex-wrap: wrap;
   
   .popup__title{
     --rTitleMarginBottom: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 1.5rem; 
   }
 
   .popup__close{
@@ -755,10 +756,11 @@ animation
     text-decoration:none;
     color:rgb(0, 0, 0);
     font-size:13px;
-    opacity:1;
+    opacity:0.8;
     padding:10px 20px;
     border:2px solid rgb(26, 26, 26);
     border-radius:100px;
+    backdrop-filter: blur(10px);
   }
   
  
@@ -893,6 +895,28 @@ animation
     text-decoration: underline;
 }
 
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .Contact {
+        grid-template-columns: 1fr;
+        text-align: center;
+        width: 90%;
+        padding: 5vw;
+        gap: 5vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .Contact {
+        padding: 4vw;
+        width: 95%;
+    }
+    
+    .C_lien img {
+        height: min(150px, 30vw);
+        width: min(150px, 30vw);
+    }
+}
 /* Footer */
 footer {
     background-color: #8c9fa3;
