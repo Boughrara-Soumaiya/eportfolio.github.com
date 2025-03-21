@@ -514,6 +514,7 @@ gap: 20px;
 flex-direction: row;
 align-content: space-between;
 flex-wrap: wrap;
+justify-content: center;
 }
 
 .category {
