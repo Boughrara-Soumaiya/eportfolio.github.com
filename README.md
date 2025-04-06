@@ -30,7 +30,7 @@ Le site s'articule autour des sections suivantes :
 | HTML / CSS        | Structure et mise en page              |
 | JavaScript        | Interactivité et dynamisme             |
 
-## Auteur
+## Créatrice
 
 Le site a été entièrement développé par moi-même dans le cadre d'une démarche de valorisation de mes compétences et de structuration de mes réalisations.  
 Il reflète mon souci de clarté, de rigueur et d’organisation dans la présentation de mes travaux techniques.
