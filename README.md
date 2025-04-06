@@ -25,10 +25,7 @@ Le site s'articule autour des sections suivantes :
 
 ## Technologies utilisées
 
-| Technologie       | Utilisation                            |
-|-------------------|----------------------------------------|
-| HTML / CSS        | Structure et mise en page              |
-| JavaScript        | Interactivité et dynamisme             |
+HTML, CSS et JavaScript       
 
 ## Créatrice
 
